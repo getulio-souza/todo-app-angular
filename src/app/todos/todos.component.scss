@@ -1,0 +1,56 @@
+.heading-section{
+  background: linear-gradient(to right, rgb(5, 122,221), rgb(21, 322,643));
+  padding: 100px 0 150px 0;
+  h1{
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 2px 3px rgba(#000, 0.2);
+  }
+}
+
+.container{
+  max-width: 800px;
+  .add-todo-box{
+    padding: 25px;
+    border-radius: 5px;
+    // margin-top: -20px;
+    background-color: #fff;
+    position: relative;
+    top: -60px;
+    box-shadow: 0 4px 12px rgba(#000, 0.2);
+  }
+  .control{
+    a{
+      transition: .5s;
+    }
+    a:hover{
+    background: rgba(21,21, 322,643);
+
+    }
+    i{
+      margin-right: 10px;
+    }
+  }
+}
+
+.todo-item{
+   display: flex;
+   gap:10px;
+   font-size: 18px;
+   .check-box{
+      display: flex;
+      border: 2px solid #eee;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      i{
+        font-size: 20px;
+        margin: auto;
+        opacity: 0;
+      }
+      i:hover{
+        opacity: 1;
+      }
+   }
+}
